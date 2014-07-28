@@ -523,3 +523,87 @@ max-width: 180px;
   color: #8f5536;
 }
 
+/* Right masthead, copied and edited directly from original masthead */
+.rmasthead {
+  color: black;
+  background-color: #e9e9e9;
+  border-left: 1.5px solid #eee;
+  border-top: 1.5px solid #eee;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+
+/* Masthead content */
+.rmasthead h2 {
+  color: #2a2a2a;
+  margin-top: 0;
+  font-family: "Abril Fatface";
+}
+.rmasthead .lead {
+  margin-bottom: 0;
+  
+}
+.rmasthead a {
+  
+  color: #2a2a2a;
+}
+
+/* Footer area of masthead */
+.colophon {
+  margin-top: 20px;
+  color: rgba(255,255,255,.5);
+}
+.colophon-links {
+  padding-left: 0;
+  list-style: none;
+}
+.colophon-links li {
+  color: inherit;
+}
+
+/* Responsive masthead */
+
+
+@media (min-width: 768px){
+  #me {
+
+width:75%;
+
+
+max-width: 180px;
+
+    float: left;
+    position: relative;
+   
+    margin-left: 20%;
+    margin-rigth: 15%;
+
+    margin-top: 3%;
+    clear:both;
+  
+  }
+  
+}
+
+@media (min-width: 990px) {
+  /* Fix the masthead to the side for impact and awesomeness */
+
+  .rmasthead {
+    position: fixed;
+    top: 0;
+    right:0;
+    bottom: 0;
+    width: 15%;
+    margin-bottom: 0;
+  }
+
+  .rmasthead h1 {
+    font-size: 64px;
+  }
+  .colophon {
+    margin-top: 40px;
+  }
+}
+
+
