@@ -5,7 +5,7 @@ url:          http://avashmulmi.com.np
 author:
   name:       'Avasz'
   email:      'avashmulmi.com.np'
-markdown:     rdiscount
+markdown:    kramdown 
 permalink:    pretty
 pygments:     true
 paginate:     5
