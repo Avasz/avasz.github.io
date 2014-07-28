@@ -6,21 +6,35 @@
   <body>
 
     <header class="masthead">
+    <a href="{% post_url 2014-07-28-aboutme %}"><img src="/img/me.png" id="me"></a>
+
+  
       <div class="masthead-inner">
-        <h1>{{ site.title }}</h1>
+            
+       
+      
+        <h2>{{ site.title }}</h2>
         <p class="lead">{{ site.description }}</p>
 
         <div class="colophon">
           <ul class="colophon-links">
-            <li>
+           <!-- <li>
               <a href="https://github.com/mdo/hyde/archive/v{{ site.version }}.zip">Download</a>
             </li>
             <li>
               <a href="https://github.com/mdo/hyde">GitHub project</a>
             </li>
-            <li>Currently v{{ site.version }}</li>
-          </ul>
-          <p>&copy; 2014. {{ site.author.name }} All rights reserved.</p>
+  
+          </ul> -->
+          <a href="http://facebook.com/avasz"> Facebook</a> | <a href="http://twitter.com/avashz">Twitter</a> | <a href="http://github.com/avasz">Github </a><br>
+          <a href="http://np.linkedin.com/pub/avash-mulmi/62/11a/290">LinkedIN</a><br>
+          Avasz on moznet & freenode <p>
+          <br>
+         
+          Copyleft: {{ site.author.name }}.<br>
+          All wrongs preserved.<br>
+     2014.<br>
+          
         </div>
       </div>
     </header>
