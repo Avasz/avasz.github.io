@@ -565,27 +565,6 @@ max-width: 180px;
 /* Responsive masthead */
 
 
-@media (min-width: 768px){
-  #me {
-
-width:75%;
-
-
-max-width: 180px;
-
-    float: left;
-    position: relative;
-   
-    margin-left: 20%;
-    margin-rigth: 15%;
-
-    margin-top: 3%;
-    clear:both;
-  
-  }
-  
-}
-
 @media (min-width: 990px) {
   /* Fix the masthead to the side for impact and awesomeness */
 
