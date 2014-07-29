@@ -63,13 +63,13 @@
     </div>
        <header class="rmasthead">
    <h2> Index </h2>
-  <ul>
+ 
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    
+      <a  id="li" href="{{ post.url }}">+ {{ post.title }}</a>
+    
   {% endfor %}
-</ul>
+
     </header>
 
   </body>
