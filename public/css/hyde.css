@@ -227,9 +227,12 @@ a:focus {
 .masthead {
   color: #fff;
   background-color: #2a2a2a;
+
+
 }
 .masthead-inner {
   padding: 20px;
+
 }
 
 /* Masthead content */
@@ -264,7 +267,7 @@ a:focus {
   #me {
 
 width:75%;
-
+margin-bottom: 100px;
 
 max-width: 180px;
 
@@ -273,19 +276,22 @@ max-width: 180px;
    
     margin-left: 20%;
     margin-rigth: 15%;
-    margin-bottom: 100px;
 
     margin-top: 3%;
-    clear:both;
+    
+   
+   -webkit-transform 2s;
+    transition: transform 2s;
   
   }
-  #me:hover{
-  width: 90%;
-  max-width:220px;
-  margin-left:16%;
-  transparent: 40;
-  }
   
+
+  #you{
+  transition: transform 2s;
+  }
+  #you:hover{
+  transform: rotate(360deg);
+  }
 }
 @media (min-width: 230px) {
   .masthead-inner {
@@ -438,7 +444,7 @@ max-width: 180px;
  */
 
 @media (min-width: 990px) {
-  .layout-reverse .masthead {
+  .layout-reverse .rmasthead {
     left: auto;
     right: 0;
   }
@@ -523,28 +529,31 @@ max-width: 180px;
 
 /* Brown */
 .theme-base-0f .masthead {
-  background-color: #8f5536;
+  background-color: #2a2a2a;
 }
 .theme-base-0f .container a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
 
+
 /* Right masthead, copied and edited directly from original masthead */
 .rmasthead {
-  color: #efefef;
-  background-color:#efefef;
-  border-left: 1.5px solid #eee;
-  border-top: 1.5px solid #eee;
+  color: #fff;
+  background-color:#2a2a2a;
+
   padding-top: 25px;
   padding-left: 20px;
-  transition: width 1.5s;
+  transition: left 1.5s;
+
+
+  
 }
 
 
 /* Masthead content */
 .rmasthead h2 {
-  color: #2a2a2a;
+  color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface";
 }
@@ -579,19 +588,21 @@ max-width: 180px;
     top: 0;
     right:0;
     bottom: 0;
-    width: 2%;
+   
+    left: 98%;
 
     margin-bottom: 0;
     
   }
     .rmasthead:hover {
+     
     position: fixed;
-    background-color:#efefef;
+    background-color:#2a2a2a;
     top: 0;
-    right:0;
+    left:85%;
     bottom: 0;
     width: 15%;
-    color: black;
+    color: #fff;
     
     margin-bottom: 0;
     
@@ -615,11 +626,13 @@ max-width: 180px;
 margin-left: 15px;
 transition: font-size 0.5s;
 font-size: 15px;
+color: #fff;
 }
 #li:hover{
-border: 0.5px solid silver;
-background: #e5e5e5;
+border: 0.5px solid black;
+background: #1f1f1f;
 font-size: 25px;
+color: #fff;
 
 }
 
