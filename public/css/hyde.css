@@ -538,6 +538,7 @@ max-width: 180px;
   border-top: 1.5px solid #eee;
   padding-top: 25px;
   padding-left: 20px;
+  transition: width 1.5s;
 }
 
 
