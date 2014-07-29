@@ -613,7 +613,7 @@ max-width: 180px;
 
 #li{
 margin-left: 15px;
-
+transition: font-size 0.5s;
 font-size: 15px;
 }
 #li:hover{
