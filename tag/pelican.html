@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Test - /dev/random</title>
+    <title>Pelican - /dev/random</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -12,7 +12,7 @@
 
 
     <meta name="author" content="Avasz" />
-    <meta name="keywords" content="Test" />
+    <meta name="keywords" content="Pelican" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="/dev/random" />
@@ -50,9 +50,6 @@
                          <li><a href="../pages/about/">
                              About Me
                           </a></li>
-                        <li class="active">
-                            <a href="../category/.html"></a>
-                        </li>
                         <li >
                             <a href="../category/articles.html">Articles</a>
                         </li>
@@ -71,9 +68,9 @@
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="../posts/2015/Feb/11/test/">Linux Test Page</a></h2>
-                <div class="summary">
-                    <a class="btn btn-default btn-xs" href="../posts/2015/Feb/11/test/">more ...</a>
+                <h2><a href="../posts/2015/Feb/11/articles/">Static Site with Pelican</a></h2>
+                <div class="summary"><p>About blogging in static site generated with pelican</p>
+                    <a class="btn btn-default btn-xs" href="../posts/2015/Feb/11/articles/">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -98,13 +95,13 @@
             <li class="list-group-item"><a href="../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-4">
-                        <a href="../tag/test.html">
-                            Test
+                        <a href="../tag/static-site.html">
+                            Static-Site
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="../tag/.html">
-                            
+                        <a href="../tag/pelican.html">
+                            Pelican
                         </a>
                     </li>
                 </ul>
@@ -154,6 +151,21 @@
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="../theme/js/respond.min.js"></script>
 
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = ''; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
 
 </body>
 </html>
