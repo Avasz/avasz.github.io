@@ -31,7 +31,7 @@ table.borderless td, table.borderless th {
 a.toc-backref {
   text-decoration: none ;
   color: black }
-a{
+a:hover{
 		color:blue
 }
 blockquote.epigraph {
