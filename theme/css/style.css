@@ -74,7 +74,10 @@ body {
     margin-right: 3px;
 }
 
-a, a:hover {
+a{
+		color: inherit;
+}
+a:hover {
     color: blue;
     font-color: blue;
 }
