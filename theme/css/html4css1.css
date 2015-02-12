@@ -31,7 +31,9 @@ table.borderless td, table.borderless th {
 a.toc-backref {
   text-decoration: none ;
   color: black }
-
+a{
+		color:blue
+}
 blockquote.epigraph {
   margin: 2em 5em ; }
 
