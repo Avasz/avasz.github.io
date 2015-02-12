@@ -75,7 +75,8 @@ body {
 }
 
 a, a:hover {
-    color: inherit;
+    color: blue;
+    font-color: blue;
 }
 
 .entry-content a {
